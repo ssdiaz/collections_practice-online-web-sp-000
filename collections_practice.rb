@@ -49,7 +49,7 @@ end
 
 # 9. adds an "s" to each word in array EXCEPT the second element
 def add_s(array)
-  array.each_with_index.collect {do} |element, index|
+  array.each_with_index.collect { |element, index|
     if index == 1
       element
     else
