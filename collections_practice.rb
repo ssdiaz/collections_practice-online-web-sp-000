@@ -29,10 +29,10 @@ end
 # 6. replaces the thrid character to $
 def kesha_maker (array)
   new_array = []
-  array.each do |string|
-    kesha_word = string.split("")
-    kesha_word[2] = "$"
-    new_array << kesha_word.join
+  array.each do |word|
+    string_to_array = word.split("")
+    string_to_array[2] = "$"
+    new_array << string_to_array.join
   end
   new_array
 end
