@@ -1,4 +1,9 @@
-# takesn an array of integers and returns a copy in ascending order
+# returns a copy in ascending order
 def sort_array_asc (array)
   array.sort
+end
+
+# returns desending order
+def sort_array_desc(array)
+  array.reverse
 end
