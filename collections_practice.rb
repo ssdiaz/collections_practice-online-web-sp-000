@@ -30,16 +30,20 @@ end
 def kesha_maker (array)
   new_word = []
   new_array
-  #i = 0
   # need to make the string into an array then add
   array.each do |string|
-    new_word << string.value.split""
-    new_word[1] << "$"
+    new_word = string.split("")
+    new_word[2] = "$"
     new_word.join
-
     new_array << new_word
   end
 
+end
+
+
+array.each do |string|
+#puts   string.split
+puts new_word = string.split
 end
 
 # 7.
