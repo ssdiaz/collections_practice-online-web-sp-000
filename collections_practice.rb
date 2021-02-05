@@ -37,7 +37,10 @@ def kesha_maker (array)
   kesha_array
 end
 
+# 7. returns all strings that start with "a"
+def find_a(array)
+  array.start_with?("a")
+end
 
-# 7.
 # 8.
 # 9.
