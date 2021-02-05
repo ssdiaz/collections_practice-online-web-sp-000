@@ -35,9 +35,8 @@ def kesha_maker (array)
     new_word = string.split("")
     new_word[2] = "$"
     new_word.join
-    new_array << new_word
+    #new_array << new_word
   end
-
 end
 
 
