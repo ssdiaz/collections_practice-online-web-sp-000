@@ -5,7 +5,7 @@ end
 
 # 2. returns desending order
 def sort_array_desc(array)
-array.sort {|a,b| b <=> a }
+  array.sort {|a,b| b <=> a }
 end
 
 # 3. returns a copy of array with the strings in asc. order by length
