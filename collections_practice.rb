@@ -5,5 +5,5 @@ end
 
 # returns desending order
 def sort_array_desc(array)
-  array.reverse
+  array.sort! { |x,y| y <=> x }
 end
