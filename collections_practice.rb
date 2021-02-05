@@ -42,5 +42,9 @@ def find_a(array)
   array.select {|word| word.start_with?("a")}
 end
 
-# 8.
+# 8. adds all integers in array and returns the sum
+def sum_array
+  array.sum
+end
+
 # 9.
