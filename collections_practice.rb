@@ -48,7 +48,7 @@ def sum_array(array)
 end
 
 # 9. adds an "s" to each word in array EXCEPT the second element
-def adds_s(array)
+def add_s(array)
   array.each_with_index.collect do |element, index|
     if index != 1
       element + "s"
