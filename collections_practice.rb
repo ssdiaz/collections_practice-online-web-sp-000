@@ -40,11 +40,6 @@ def kesha_maker (array)
 end
 
 
-array.each do |string|
-#puts   string.split
-puts new_word = string.split
-end
-
 # 7.
 # 8.
 # 9.
