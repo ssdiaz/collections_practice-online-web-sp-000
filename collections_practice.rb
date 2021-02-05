@@ -39,7 +39,7 @@ end
 
 # 7. returns all strings that start with "a"
 def find_a(array)
-  array.start_with?("a")
+  array.select {|word| word.start_with?("a")}
 end
 
 # 8.
