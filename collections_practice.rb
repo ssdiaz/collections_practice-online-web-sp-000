@@ -50,9 +50,9 @@ end
 # 9. adds an "s" to each word in array EXCEPT the second element
 def adds_s(array)
   #new_array = []
-  array.each_with_index.collect do |element, index != 2|
-  #  if array[] != array[1]
+  array.each_with_index.collect do |element, index|
+    if index != 1
       element + "s"
-    #end
+    end
   end
 end
