@@ -28,6 +28,17 @@ end
 
 # 6. replaces the thrid character to $
 def kesha_maker (array)
+  new_word = []
+  new_array
+  #i = 0
+  # need to make the string into an array then add
+  array.each do |string|
+    new_word << string.value.split""
+    new_word[1] << "$"
+    new_word.join
+
+    new_array << new_word
+  end
 
 end
 
