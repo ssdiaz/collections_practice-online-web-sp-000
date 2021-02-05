@@ -10,7 +10,7 @@ end
 
 # returns a copy of array with the strings in asc. order by length
 def sort_aray_char_count
-  array.map do |string|
-    string.length.sort
+  array.sort do |a,b|
+    a.length <=> b.length
   end
 end
